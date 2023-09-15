@@ -35,7 +35,7 @@ data = {"cal": [420, 380, 390], "dur":[50, 40, 45]}
 sharad = pd.DataFrame(data, index=["day1", "day2", "day3"])
 print(sharad.loc[["day1", "day2"]])
 
-# load the data from the csv file into dataframe i.e data.csv
+# load the data from the csv file into dataframe i.e data.csv and used revel in the file explorer
 import pandas as pd
 fileload = pd.read_csv('data.csv')
 print(fileload)
